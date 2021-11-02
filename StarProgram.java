@@ -58,6 +58,7 @@ class MyFrame extends JFrame implements ActionListener , ChangeListener
 			fallButton.addActionListener(this);
 
 			JButton chaseButton = new JButton("Chase the Mouse");
+			chaseButton.disable();
 
 			speedSlider = new JSlider(0, 10, 1);
 			speedSlider.setMinorTickSpacing(1);
